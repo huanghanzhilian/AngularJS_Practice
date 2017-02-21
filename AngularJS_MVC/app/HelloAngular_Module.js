@@ -7,4 +7,4 @@ myModule.controller("helloAngular", ['$scope',
         };
     }
 ]);
-console.log(myModule)
+
