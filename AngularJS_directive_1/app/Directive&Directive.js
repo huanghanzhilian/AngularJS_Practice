@@ -5,6 +5,7 @@ myModule.directive("superman", function() {
         restrict: 'AE',
         controller: function($scope) {
             $scope.abilities = [];
+
             this.addStrength = function() {
                 $scope.abilities.push("strength");
             };

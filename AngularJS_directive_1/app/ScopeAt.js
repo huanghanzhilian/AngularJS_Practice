@@ -5,13 +5,12 @@ myModule.controller('MyCtrl', ['$scope', function($scope){
 myModule.directive("drink", function() {
     return {
     	restrict:'AE',
-        scope:{
-        	flavor:'@'
+        scope: {
+            flavor: '@'
         },
-        template:"<div>{{flavor}}</div>"
-        // ,
-        // link:function(scope,element,attrs){
-        // 	scope.flavor=attrs.flavor;
-        // }
+        template:"<div>{{flavor}}</div>",
+        /*link:function(scope,element,attrs){
+        	scope.flavor=attrs.flavor;
+        }*/
     }
 });
