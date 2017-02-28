@@ -5,7 +5,7 @@ myModule.controller('MyCtrl', ['$scope', function($scope){
 	}
 }])
 myModule.directive("greeting", function() {
-    return {
+    return { 
     	restrict:'AE',
         scope:{
         	greet:'&'
